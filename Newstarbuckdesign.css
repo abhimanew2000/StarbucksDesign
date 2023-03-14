@@ -7,7 +7,7 @@ body{
     font-family: sans-serif;
     color: black;
     line-height: 1.4;
-    
+  
 }
 a{
     text-decoration: none;
@@ -112,12 +112,14 @@ header li{
     display:inline block;
     border-radius: 50px;
     padding: 3px ;
+    background: none;
 }
 /*secondpart*/
 .section-container-right{
     display: flex;
 }
 .text1{
+    font-size: 30px;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -146,12 +148,15 @@ header li{
     display:inline block;
     border-radius: 50px;
     padding: 3px ;
+    background: none;
+
 }
 /*thirdpart*/
 .section-container-left1{
     display: flex;
 }
 .text2{
+    font-size: 30px;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -182,6 +187,11 @@ header li{
     display:inline block;
     border-radius: 50px;
     padding: 3px ;
+    background: none;
+
+}
+.grid-footer-col{
+    margin-left: 40px;
 }
 /*fourthpart*/
 .section-container-right1{
@@ -217,6 +227,8 @@ header li{
     display:inline block;
     border-radius: 50px;
     padding: 3px ;
+    background: none;
+
 }
 .footer{
     padding: 0;
@@ -231,4 +243,10 @@ header li{
 .grid-footer-col{
     display: flex;
     justify-content: space-between;
+}
+a:hover{
+    cursor: pointer;
+}
+.grid-item{
+    line-height: 40px;
 }
