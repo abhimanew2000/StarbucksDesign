@@ -60,10 +60,7 @@ header li{
     height: 20px;
     
 }
-.header-head-right li:first-child{
-    display :flex ;
-    align-items: center;
-}
+
 .btn{
     display:inline block;
     border-radius: 50px;
@@ -79,7 +76,7 @@ header li{
 
 }
 /*first part*/
-.section-container-left{
+.section-container-one{
     display: flex;
 }
 .text{
@@ -96,11 +93,11 @@ header li{
     width: 80%;
 }
 
-.section-container-left img{
+.section-container-one img{
     width: 100%;
     height: auto;
 }
-.section-container-left{
+.section-container-one{
     background-color:#d4e9e2;
     margin-top: 2%;
     margin-left: 3%;
@@ -115,7 +112,7 @@ header li{
     background: none;
 }
 /*secondpart*/
-.section-container-right{
+.section-container-two{
     display: flex;
 }
 .text1{
@@ -132,11 +129,11 @@ header li{
     width: 80%;
 }
 
-.section-container-right img{
+.section-container-two img{
     width: 50%;
     height: auto;
 }
-.section-container-right{
+.section-container-two{
     background-color:#fbbc05;
     margin-top: 2%;
     margin-left: 3%;
@@ -152,7 +149,7 @@ header li{
 
 }
 /*thirdpart*/
-.section-container-left1{
+.section-container-three{
     display: flex;
 }
 .text2{
@@ -169,13 +166,13 @@ header li{
     width: 80%;
 }
 
-.section-container-left1 img{
+.section-container-three img{
     display: flex;
     justify-content:flex-end;
     width: 100%;
     height: auto;
 }
-.section-container-left1{
+.section-container-three{
     background-color:#dfc49d;
     margin-top: 2%;
     margin-left: 3%;
@@ -194,7 +191,7 @@ header li{
     margin-left: 40px;
 }
 /*fourthpart*/
-.section-container-right1{
+.section-container-four{
     display: flex;
 }
 .text3{
@@ -210,17 +207,19 @@ header li{
     width: 80%;
 }
 
-.section-container-right1 img{
+.section-container-four img{
 
     width: 50%;
     height: auto;
 }
-.section-container-right1{
+.section-container-four{
     background-color:#d4e9e2;
     margin-top: 2%;
     margin-left: 3%;
     margin-right: 3%;
     padding: 5px;
+
+
 }
 .btn3{
     margin-top: 5%;
@@ -230,23 +229,20 @@ header li{
     background: none;
 
 }
-.footer{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-around;
-    align-items: flex-start;
-}
+
 .grid-footer-col{
+    width: 100%;
+    box-shadow: 0 -1px 3px rgba(0,0,0,.1), 0 -2px 2px rgba(0,0,0,.06), 0 0 2px rgba(0,0,0,.07);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-left: 0;
+    margin-top: 80px;
+    padding: 20px;
 }
 a:hover{
     cursor: pointer;
 }
 .grid-item{
+
     line-height: 40px;
 }
